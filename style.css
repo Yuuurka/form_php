@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+  }
+
+
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    background-color: rgb(85, 140, 211);
+}
+  
+.header__wrapper {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__block {
+      width: 20%;
+      margin-left: 15px;
+      margin-right: 15px;
+}
+
+.logo__image {
+  height: 85px;
+}
+
+
+.content {
+  background-image: url(/img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 849px;
+}
+
+.workspace {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content__block {
+  background-color: rgba(85, 140, 211, 0.5);
+}
+
+.past {
+  margin-top: 10%;
+  margin-left: 1%;
+}
+
+legend {
+  margin-left: 15px;
+  margin-top: 3px;
+  margin-block-start: 8px;
+  margin-block-end: 8px;
+}
+
+label {
+  margin-left: 15px;
+}
+
+.button {
+  margin-left: 15px;
+}
+
+h1 {
+  margin-block-start: 3px;
+  margin-block-end: 3px;
+}
+
+.text_error {
+  font-size: 13px;
+  margin-left: 15px;
+}
+
+p {
+  vertical-align: top;
+  margin-block-start: 13px;
+  margin-block-end: 13px;
+}
+
+.button {
+  margin-block-end: 5px;
+}
+
+h2 {
+  margin-block-start: 3px;
+  margin-block-end: 3px;
+}
